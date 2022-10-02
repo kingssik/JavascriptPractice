@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+    <link rel="stylesheet" href="main.css"> <!-- 만든 css파일 첨부 -->
 </head>
 <body>
+  
+   <div class="alert-box" id="alert">Alert 박스
+   <button onclick="document.getElementById('alert').style.display = 'none';">닫기</button>
+   </div>   
    
-   <h2 id='hello'>안녕하세요</h2>
-   <h2 id='hi'>올때메로나</h2>
+   
+   <button onclick="document.getElementById('alert').style.display = 'block';">버튼</button>
    
    <script>
-   
-       document.getElementById('hello').innerHTML = '안녕';
-//       document.getElementById('???').???? = '????';
-//       ?만 잘 채우면 원하는대로 변경가능 ?*4는 구글검색 필요
-       document.getElementById('hi').innerHTML = '올때바밤바';
-    
+       
    </script>
     
 </body>
