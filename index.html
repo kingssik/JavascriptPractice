@@ -11,17 +11,13 @@
    <p>Alert 박스</p>
    </div>   
    
-   <button onclick="알림창열기()">열기</button>
-   <button onclick="알림창닫기()">닫기</button>
+   <button onclick="알림창('block')">열기</button>
+   <button onclick="알림창('none')">닫기</button>
    
    <script>
        
-       function 알림창열기(){
-           document.getElementById('alert').style.display = 'block';
-       }
-       
-       function 알림창닫기(){
-           document.getElementById('alert').style.display = 'none';
+       function 알림창(구멍){
+           document.getElementById('alert').style.display = 구멍;
        }
        
        
