@@ -1,4 +1,6 @@
-
+.yellow-bg {
+    background: yellow;
+}
 .alert-box {
     background-color: #a6a6e5;
     color: blue;
